@@ -1,0 +1,301 @@
+#page_entiere
+{
+	max-width: 900px;
+	margin: auto;
+}
+#top_entete
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size: 0.8em;
+}
+#top_entete p
+{
+	margin-bottom: 0;
+}
+#prix
+{
+	font-size: 1.5em;
+}
+#gros_titre p
+{
+	color: white;
+	margin: 0px;
+}
+a
+{
+	color: black;
+}
+a:hover
+{
+	color: black;
+}
+header
+{
+	background-color: #2B70B9;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+header h1
+{
+	margin: 0;
+	font-size: 5em;
+	justify-content: center;
+	padding-top: 20px;
+}
+header p
+{
+	margin: 0;
+	justify-content: center;
+	font-size: 0.9em;
+}
+.to_upper_case
+{
+	text-transform: uppercase;
+}
+#sous_le_titre
+{
+	display: flex;
+	border-bottom: 5px solid #2B70B9;
+}
+.moi, #boy
+{
+	height: 150px;
+}
+h3
+{
+	margin: 0;
+}
+#sous_le_titre div
+{
+	font-size: large;
+	vertical-align: top;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	height: 150px;
+	overflow: hidden;
+}
+#info_perso
+{
+	background-color: #E5E1DA;
+	border-right: 4px solid white;
+}
+#commentaire
+{
+	background-color: #5E5F50;
+	border-left: 4px solid white;
+}
+em
+{
+	font-style: italic;
+}
+#habitue
+{
+	text-align-last: end;
+}
+
+/* une de journal */
+
+
+#une
+{
+	margin-top: 20px;
+}
+#photo_une
+{
+	height: 450px;
+	background: url('photo/CD_Bar.jpg') no-repeat;
+	margin-left: 170px;
+	position: relative;
+	margin-bottom: 20px;
+}
+#titre_une
+{
+	position: absolute;
+	color: white;
+	text-align: left;
+}
+#titre_une h2
+{
+	font-size: xxx-large;
+
+}
+#titre_une p
+{
+	font-size: larger;
+	width: 50%;
+}
+
+/* colonne de gauche */
+
+#column1
+{
+	height: 1000px;
+	padding-right: 10px;
+	float: left;
+	border-right: 1px solid black;
+}
+#column1 div
+{
+	border-bottom: 1px solid #8F8B88;
+	width: 150px;
+}
+.comic
+{
+	background-color: #E8E4DD;
+}
+.comic p
+{
+	font-weight: bold;
+	color: #A73C3B;
+}
+h4
+{
+	color: #8F8B88;
+	margin-bottom: 0;
+}
+.sondage
+{
+	border-bottom: 1px solid #286FBA;
+}
+.sondage p
+{
+	color: white;
+}
+.question
+{
+	background-color: #286FBA;
+	text-indent: 20px;
+}
+.oui
+{
+	background-color: #286FBA;
+	display: inline-block;
+	width: 70%;
+}
+.non
+{
+	display: inline-block;
+	background-color: #DAD5D0;
+}
+
+/* sous la une */
+
+#interview
+{
+	border-top: 1px solid #323232;
+	display: flex;
+	text-align: justify;
+	font-size: small;
+}
+#interview article
+{
+	border-top: 3px solid black;
+	padding: 10px;
+	width: 100%;
+}
+#interview div
+{
+	margin-top: 15px;
+}
+#aptitudes p
+{
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+}
+#low_article
+{
+	display: flex;
+	justify-content: space-between;
+}
+#editorial
+{
+	margin-left: 10px;
+	width: 50%;
+	border-bottom: 2px solid #2770BA;
+}
+#editorial strong
+{
+	background-color: #3373AF;
+	color: white;
+	border-radius: 3px;
+	font-size: 1.2em;
+}
+#editorial h4
+{
+	display: flow-root;
+	color: #3373AF;
+	background-color: #DAD5D0;
+	border-top: 2px solid #BCB9B5;
+}
+#editorial h3
+{
+	text-align: center;
+	margin-top: 10px;
+}
+#desk
+{
+	margin-top: 22px;
+}
+#column2
+{
+	display: none;
+}
+
+
+/* media queries */
+
+
+@media all and (max-width: 500px)
+{
+	#commentaire , #boy
+	{
+		display: none;
+	}
+	#sous_le_titre div
+	{
+		width: 100%;
+		font-size: normal;
+	}
+	#photo_une
+	{
+		height: 450px;
+		background: url('photo/CD_Bar.jpg') no-repeat;
+		margin-left: 10px;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	#column1
+	{
+		display: none;
+	}
+	#interview
+	{
+		flex-direction: column;
+		font-size: larger;
+	}
+	#editorial
+	{
+		width: 100%;
+	}
+	#desk
+	{
+		display: none;
+	}
+	#column2
+	{
+		display: initial;
+	}
+	#column2 div
+	{
+		border-bottom: 1px solid #8F8B88;
+	}
+	.oui
+	{
+		width: 90%;
+	}
+}
