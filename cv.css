@@ -250,7 +250,7 @@ h4
 /* media queries */
 
 
-@media all and (max-width: auto)
+@media all and (max-width: device-width)
 {
 	#commentaire , #boy
 	{
