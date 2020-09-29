@@ -60,10 +60,11 @@ header p
 	display: flex;
 	border-bottom: 5px solid #2B70B9;
 }
-.moi, #boy
+.moi, .cloud-campus
 {
 	height: 150px;
 }
+
 h3
 {
 	margin: 0;
@@ -88,9 +89,9 @@ h3
 	background-color: #5E5F50;
 	border-left: 4px solid white;
 }
-em
+strong
 {
-	font-style: italic;
+	font-weight: bold;
 }
 #habitue
 {
@@ -245,7 +246,6 @@ h4
 {
 	display: none;
 }
-
 
 /* media queries */
 
