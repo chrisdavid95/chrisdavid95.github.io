@@ -239,6 +239,47 @@ h4
 	text-align: center;
 	margin-top: 10px;
 }
+#technologies h4
+{
+	display: flow-root;
+	color: #3373AF;
+	background-color: #DAD5D0;
+	border-top: 2px solid #BCB9B5;
+	padding: 2px;
+}
+.fab, .fas
+{
+	font-size: 3rem;
+}
+.fa-html5
+{
+	color: #dd4d25;
+}
+.fa-css3-alt
+{
+	color: #1779B8;
+}
+.fa-sass
+{
+	color: #CF6BA0;
+}
+
+.fa-git
+{
+	color: #E94F32;
+}
+.fa-js-square
+{
+	color: #EFD81C;
+}
+.fa-wordpress
+{
+	color: #127297;
+}
+.fa-vuejs, .fa-react, .fa-node-js, .fa-php, .fa-python, .fa-symfony, .fa-infinity, .fa-database, #noIconFound
+{
+	color: grey;
+}
 #desk
 {
 	margin-top: 22px;
@@ -246,6 +287,14 @@ h4
 #column2
 {
 	display: none;
+}
+#low_article article 
+{
+	flex: 1;
+}
+#low_article article:first-of-type
+{
+	margin-right: 1%;
 }
 
 /* media queries */
