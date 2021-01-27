@@ -41,7 +41,7 @@ header
 header h1
 {
 	margin: 0;
-	font-size: 5em;
+	font-size: 4em;
 	justify-content: center;
 	padding-top: 20px;
 }
@@ -59,6 +59,11 @@ header p
 {
 	display: flex;
 	border-bottom: 5px solid #2B70B9;
+}
+#OC
+{
+	object-fit: cover;
+    width: 150px;
 }
 .moi, .cloud-campus
 {
@@ -249,7 +254,7 @@ h4
 }
 .fab, .fas
 {
-	font-size: 3rem;
+	font-size: 4.5rem;
 }
 .fa-html5
 {
@@ -276,7 +281,15 @@ h4
 {
 	color: #127297;
 }
-.fa-vuejs, .fa-react, .fa-node-js, .fa-php, .fa-python, .fa-symfony, .fa-infinity, .fa-database, #noIconFound
+.fa-php
+{
+	color: #858FBC;
+}
+.fa-node-js
+{
+	color: #87BF00;
+}
+.fa-vuejs, .fa-react, .fa-python, .fa-symfony, .fa-infinity, .fa-database, #noIconFound
 {
 	color: grey;
 }
